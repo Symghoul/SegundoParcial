@@ -1,0 +1,47 @@
+#containerApp{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+#columnsContainer{
+    
+}
+
+.tareaComponent{
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    width: 150%;
+    padding: 20px;
+    position: relative;
+    margin: 10px auto;
+}
+
+.deleteT{
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgb(226, 40, 40)
+}
+
+.nextT{
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(57, 46, 223);
+}
+
+.lastT{
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(241, 224, 63);
+}
